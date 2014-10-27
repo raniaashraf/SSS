@@ -1,0 +1,7 @@
+rania_sss_item:
+    resource: "@RaniaSSSBundle/Resources/config/routing/item.yml"
+    prefix:   /item
+
+rania_sss_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: RaniaSSSBundle:Default:index }
